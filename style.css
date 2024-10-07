@@ -1,3 +1,65 @@
 * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
 
+header {
+    background-color: #242424;
+    height: 8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    color: 	#fdff00;
+}
+
+.primeira {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+}
+
+.primeira p {
+    width: 45rem;
+}
+
+.primeira img {
+    width: 40rem;
+}
+
+.segunda {
+    background-color: #282e3c;
+    height: 30rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 1rem;
+}
+
+.segunda p {
+    width: 45rem;
+}
+
+.segunda img {
+    width: 20rem;
+    height: 20rem;
+}
+
+.terceira {
+    height: 50rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+.terceira img {
+    width: 15rem;
+    height: 15rem;
 }
